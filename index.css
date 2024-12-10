@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+  font-size: x-large !important;
+  font-weight: 600 !important;
+  color: #E4B1F0;
+}
+.h1{
+  font-size: 2em !important;
+  font-weight: 600 !important;
+  color: #2E073F;
+  font-family: "Passion One", sans-serif;
+}
+body{
+  background-color: #7E60BF;
+  color: #433878;
+}
+#box{
+  background-color: #E4B1F0;
+  font-size: 60px;
+  font-family: "LXGW WenKai TC", "cursive";
+  font-weight: 600;
+}
+#reset{
+  background-color: #E4B1F0;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: "Passion One", sans-serif;
+  font-weight: 100 !important;
+}
+#reset:hover{
+  background-color: #e4b1f0ab;
+}
+#box:hover{
+  background-color: #e4b1f0ab;
+}
+#winner {
+  width: 50%;
+  min-width: 350px;
+  height: 40%;
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: #433878f3;
+  color: #FFE1FF;
+  box-shadow: 0px 20px 50px black;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  padding: 20px;
+  box-sizing: border-box; 
+  border-radius: 40px;
+}
+#newGame{
+  background-color: #E4B1F0;
+  padding: 15px;
+  border-radius: 50px;
+  position: absolute;
+  color: #433878;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 10px #e5d9f21f;
+  top: 80%;
+  left: 50%;
+}
+#wintext2{
+  text-align: center;
+  margin: 8vh auto;
+  font-size: 26px;
+}
